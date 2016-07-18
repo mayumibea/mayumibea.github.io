@@ -130,11 +130,11 @@ h3 a:hover {
     margin-right: 1.15%;
 }
 
-/* fix first raw margin-top */
+/*
 .thumb:nth-child(1) {margin-top:20px;}
 .thumb:nth-child(2) {margin-top:20px;}
 .thumb:nth-child(3) {margin-top:20px;}
-/* */
+*/
 
 .thumb :hover {
 	background-color:white;
@@ -402,7 +402,7 @@ h3 {
 }
 
 .filter {
-	margin-right:10px;
+	margin-right:20px;
 }
 
 }
