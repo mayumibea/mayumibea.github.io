@@ -73,6 +73,12 @@ li.clickable a:hover {
   margin-bottom:20px;
 }
 
+#wrap-img {
+  display:inline-block;
+  width:65%;
+  margin-right:4%;
+}
+
 
 /**** DESCRIPTION ****/
 .content {
@@ -134,5 +140,123 @@ a #next-project {
 a #next-project :hover {
   color:#222;
   transition: all .15s linear;
+
+}
+
+#next-project-mobile {
+  display:none;
+}
+
+.back-to-top {
+  display:none;
+}
+
+/****************************/
+/****** MEDIA QUERIES ******/
+/****************************/
+@media screen and (max-width: 1235px) {
+
+#description {
+    position: fixed;
+    width: 29%;
+    margin-left: 68%;
+}
+
+h1 {
+  font-size:30px;
+}
+
+p {
+  width:100%;
+}
+
+}
+
+/*1000PX*/
+@media screen and (max-width: 960px) {
+
+.content {
+  display:inline-block;
+}
+
+#description {
+  margin-top:20px;
+  position:static;
+  width:92%;
+  text-align:center;
+  margin-left:0;
+  display: inline-block;
+  padding:0 4%;
+}
+
+#wrap-img {
+  margin-top:30px;
+  width:92%;
+  padding:0 4%;
+}
+
+#next-project {
+  display:none;
+}
+
+#next-project-mobile {
+  margin:0 auto;
+  display:block;
+  border: 1px solid #ccc;
+  width: 150px;
+  margin-top:20px;
+
+}
+
+.back-to-top {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    color: #bbb;
+    text-decoration: underline;
+    font-style: italic;
+    font-family: Montserrat;
+    font-size: 14px;
+    margin-top: 40px;
+    margin-bottom:40px;
+}
+
+}
+
+@media screen and (max-width: 600px) {
+
+p {
+  font-size:13px;
+}
+
+h1 {
+  font-size:22px;
+}
+
+#wrap-img {
+  margin-top:0;
+}
+
+#description {
+  margin-top:0;
+}
+
+#top-header {
+  display: block;
+  margin:0 auto;
+  margin-top:25px;
+}
+
+#top-menu {
+  display:block;
+  width:245px;
+  margin: 0 auto;
+  float:none;
+  clear: none;
+  margin-bottom: 0;
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+
 
 }
