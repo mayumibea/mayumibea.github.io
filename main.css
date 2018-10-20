@@ -127,10 +127,10 @@ img {
 
 	h2 {font-size:18px;}
 
-	#intro {width:100%;}
+	#intro {width:100%; margin-top:140px; margin-bottom:80px;}
 
-	#column-left {width:100%;}
+	.column-left {max-width:100%;}
 
-	#column-right {width:100%; margin-left:0%;}
+	.column-right {max-width:100%; margin-left:0%;}
 
 }
