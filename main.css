@@ -30,6 +30,12 @@ li {margin:0 0; padding: 0 0;}
 
 ul li { margin-left:60px; }
 
+h3 {font-weight: normal; font-size:22px;}
+
+h3 a {text-decoration:none; color:#000000; transition: all .15s linear;}
+
+h3 a:hover {text-decoration:underline; color:black; opacity:1;transition: all .15s linear;}
+
 #menu {
 	width:100%;
 	float:left;
@@ -53,6 +59,14 @@ ul li { margin-left:60px; }
 #tab {
 	float:right;
 	display:inline-block;
+}
+
+#about-paragraph {
+	display:inline-block;
+	float:right;
+	width:64%;
+	margin-top:20px;
+	margin-bottom:40px;
 }
 
 /*********************/
@@ -244,6 +258,7 @@ ul li {margin-left:30px;}
 .s50-50 {margin-bottom:14px;}
 .s70-30 {margin-bottom:14px;}
 .s25-15-55 {margin-bottom:14px;}
+#about-paragraph {width:100%;}
 }
 
 @media (max-width: 720px) {
