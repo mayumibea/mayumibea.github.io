@@ -419,7 +419,7 @@ h4 {font-size:16px}
 
 @media (max-width:1280px) {
 h2 {font-size:16px;}
-ul li {margin-left:30px;}
+ul li {margin-left:42px;}
 p {font-size:12px;}
 h3 {font-size:26px;}
 h4 {font-size:14px;}
@@ -438,13 +438,13 @@ h4 {font-size:14px;}
 
 @media (max-width:1024px) {
 h2 {font-size:16px;}
-ul li {margin-left:30px;}
+ul li {margin-left:42px;}
 h3 {font-size:26px;}
 }
 
 @media (max-width: 900px) {
 h2 {font-size:16px;}
-ul li {margin-left:20px;}
+ul li {margin-left:34px;}
 #menu-container {margin-top:30px;}
 #main {margin-top:90px;}
 #logo img {max-height:50px; width:190px;}
