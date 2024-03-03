@@ -411,7 +411,7 @@ h4 {font-size:16px}
 .dropdown-content {min-width:180px;}
 .dropdown-content a {font-size:16px; margin-top:16px; margin-bottom:16px; margin-left:16px;}
 .std-row {margin-bottom:15px;}
-#logo img {max-heigh:64px; width:inherit;}
+#logo img {max-heigh:64px; width:auto;}
 #role {margin-top:12px;}
 #profile-picture {width:28%;margin-top:52px;}
 #about-paragraph {width:47%;margin-left:7%;}
@@ -426,7 +426,7 @@ h4 {font-size:14px;}
 #menu-container {margin-top:53px; width:95%; margin-left:2.5%; }
 #main {margin-top:112px; width:95%; margin-left:2.5%;}
 .std-row {margin-bottom:12px;}
-#logo img {max-height:58px;}
+#logo img {max-height:58px; width:auto;}
 #role {margin-top:-3px;}
 #insta-logo-menu {max-height:18px;}
 #centered-single-column img {margin-bottom:20px;}
@@ -447,7 +447,7 @@ h2 {font-size:16px;}
 ul li {margin-left:20px;}
 #menu-container {margin-top:30px;}
 #main {margin-top:90px;}
-#logo img {max-height:50px}
+#logo img {max-height:50px; width:auto;}
 #logo {margin-top:-20px;}
 #centered-single-column img {margin-bottom:15px;}
 #about-paragraph h3 {font-size:18px;}
@@ -481,7 +481,7 @@ h4 {font-size:12px;}
 ul li {margin-left:0; margin-right:10px;}
 #menu-container {margin-top:37px;}
 #logo {margin-top:-20px;}
-#logo img {max-height:40px;}
+#logo img {max-height:40px; width:auto;}
 #role {width:124px; margin-left:11px;margin-top:-5px}
 #centered-single-column img {margin-bottom:10px;}
 #about-paragraph {width:93%;margin-left:3.5%;}
@@ -494,7 +494,7 @@ ul li {margin-left:0; margin-right:10px;}
 #role {display:none;}
 #tab {margin-top:-6px;}
 #menu {margin-top:-17px;}
-#logo img {max-height:44px;}
+#logo img {max-height:44px; width:auto;}
 #profile-picture {margin-left:24%}
 #profile-picture img {width:180%;}
 #about-paragraph {width:88%;margin-left:6%;}
