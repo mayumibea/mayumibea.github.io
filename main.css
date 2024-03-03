@@ -411,7 +411,7 @@ h4 {font-size:16px}
 .dropdown-content {min-width:180px;}
 .dropdown-content a {font-size:16px; margin-top:16px; margin-bottom:16px; margin-left:16px;}
 .std-row {margin-bottom:15px;}
-#logo img {max-heigh:64px;}
+#logo img {max-heigh:64px; width:inherit;}
 #role {margin-top:12px;}
 #profile-picture {width:28%;margin-top:52px;}
 #about-paragraph {width:47%;margin-left:7%;}
