@@ -1,18 +1,19 @@
-body { margin:0 0; padding:0 0; background-color:#ededed; font-family: 'DM Sans', sans-serif; font-weight: 400;}
+
+/*************************************/
+/***** BASICS ************************/
+/*************************************/
+
+body { margin:0 0; padding:0 0; background-color:#FFFFFF; font-family: 'DM Sans', sans-serif; font-weight: 400;}
 
 div {display:block;}
 
 img {width:100%; display:block;}
 
-/*********************/
-/***** HEADER ******/
-/*********************/
-
 ul li {display:inline-block;}
 
 h1 {font-family:Moche; font-size:34px; margin:0 0; padding:0 0;}
 
-h2 {font-size: 34px; font-weight:400; margin:0 0; padding:0 0;}
+h2 {font-size: 22px; font-weight:400; margin:0 0; padding:0 0;}
 
 p {margin:0 0; padding:0 0; color:#858585; font-size:14px;}
 
@@ -22,7 +23,7 @@ a {text-decoration:none; color:#000000; transition: all .15s linear;}
 
 a li h2:hover {text-decoration:underline; color:black; opacity:1;transition: all .15s linear;}
 
-li h2 {color:black; opacity:0.3;}
+li h2 {color:black;}
 
 ul {margin:0 0; padding:0 0;}
 
@@ -36,6 +37,15 @@ h3 a {text-decoration:none; color:#000000; transition: all .15s linear;}
 
 h3 a:hover {text-decoration:underline; color:black; opacity:1;transition: all .15s linear;}
 
+h4 {margin:0 0; padding: 0 0; font-weight: 300; font-size: 18px; line-height: 120%;}
+
+
+
+
+/*************************************/
+/***** MENU/HEADER ******************/
+/*************************************/
+
 #menu {
 	width:100%;
 	float:left;
@@ -44,16 +54,31 @@ h3 a:hover {text-decoration:underline; color:black; opacity:1;transition: all .1
 }
 
 #menu-container {
-	margin-top:60px;
+	margin-top:80px;
+	margin-bottom:70px;
 	display:inline-block;
-	width:95%;
-	margin-left:2.5%;
+	width:94%;
+	margin-left:3%;
 	float:left;
 }
 
 #logo {
 	display:inline-block;
 	float:left;
+	margin-top:-30px;
+}
+
+#logo img {
+	height: inherit;
+	max-height:79px;
+}
+
+#role {
+	float: left;
+    display: inline-block;
+    width: 190px;
+    margin-top: 10px;
+    margin-left: 19px;
 }
 
 #tab {
@@ -61,143 +86,283 @@ h3 a:hover {text-decoration:underline; color:black; opacity:1;transition: all .1
 	display:inline-block;
 }
 
-#about-paragraph {
-	display:inline-block;
-	float:right;
-	width:64%;
-	margin-top:20px;
-	margin-bottom:40px;
+#insta-logo-menu {
+	max-height:22px;
+	margin-top:2px;
 }
 
-/*********************/
-/***** GRID ******/
-/*********************/
+
+
+
+
+/*************************************/
+/***** DROPDOWN PROJECTS MENU ******/
+/*************************************/
+
+
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown h2 {
+	cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #F1F1F1;
+    min-width: 200px;
+    z-index: 1;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+
+.dropdown-content a {
+	color: black;
+	text-decoration: none;
+	display: block;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 23px;
+	font-size: 18px;
+}
+
+.dropdown-content a:hover {opacity:0.6; text-decoration:underline;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+
+
+
+
+/*************************************/
+/***** COLUMNS ROWS STRUCTURE *************/
+/*************************************/
 
 
 #main {
 	display:inline-block;
-	width:88%;
-	margin-left:6%;
+	width:92%;
+	margin-left:4%;
 	float:left;
-	margin-top:190px;
+	margin-top:200px;
 }
 
-/*********************/
-/***** 100 GRID ******/
-/*********************/
+#centered-single-column {
+	margin:0 auto;
+	text-align:center;
+	max-width:1920px;
+}
 
-.s100 {
+#centered-single-column img {
+	max-width:1920px;
+	margin-bottom:30px;
+}
+
+.std-margin {
+	margin-right:1%;
+}
+
+.std-row {
+	display: inline-block;
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#row1-left {
+	display: inline-block;
+    float: left;
+    width: 55.8%;
+}
+
+#row1-right {
+	display: inline-block;
+    float: left;
+    width: 43.2%;
+}
+
+#row2-left {
+	display: inline-block;
+    float: left;
+    width: 37.6%;
+}
+
+#row2-right {
+    display: inline-block;
+    float: left;
+    width: 61.4%;
+
+}
+
+#row3-left {
+	display: inline-block;
+    float: left;
+    width: 43.1%;
+}
+
+#row3-right {
+    display: inline-block;
+    float: left;
+    width: 55.9%;
+
+}
+
+#row4-left {
+    display: inline-block;
+    float: left;
+    width: 31.6%;
+
+}
+
+#row4-mid {
+    display: inline-block;
+    float: left;
+    width: 46.3%;
+
+}
+
+#row4-right {
+    display: inline-block;
+    float: left;
+    width: 20%;
+}
+
+#row5-left {
+    display: inline-block;
+    float: left;
+    width: 43.1%;
+
+}
+
+#row5-mid {
+    display: inline-block;
+    float: left;
+    width: 29.3%;
+
+}
+
+#row5-right {
+    display: inline-block;
+    float: left;
+    width: 25.6%;
+}
+
+#row6-left {
+    display: inline-block;
+    float: left;
+    width: 44.4%;
+
+}
+
+#row6-right {
+    display: inline-block;
+    float: left;
+    width: 54.6%;
+}
+
+#row7-left {
+    display: inline-block;
+    float: left;
+    width: 37.1%;
+
+}
+
+#row7-mid {
+    display: inline-block;
+    float: left;
+    width: 16.6%;
+
+}
+
+#row7-right {
+    display: inline-block;
+    float: left;
+    width: 44.3%;
+}
+
+#row8-left {
+    display: inline-block;
+    float: left;
+    width: 33.2%;
+
+}
+
+#row8-mid {
+    display: inline-block;
+    float: left;
+    width: 46.5%;
+
+}
+
+#row8-right {
+    display: inline-block;
+    float: left;
+    width: 18.3%;
+}
+
+
+
+
+/*************************************/
+/***** ABOUT *************************/
+/*************************************/
+
+.std-row-about {
+	display: inline-block;
+    float: left;
+    width: 100%;
+    margin-bottom: 60px;
+
+}
+
+#profile-picture {
+	float:left;
+	display: inline-block;
+	width:22%;
+	margin-left: 12%;
+	margin-top:52px;
+}
+
+#profile-picture img {
+}
+
+#about-paragraph {
 	display:inline-block;
 	float:left;
-	width:100%;
+	width:46%;
+	margin-left:8%;
+	margin-top:20px;
 	margin-bottom:40px;
 }
 
 
-/*********************/
-/***** 50/50 GRID ****/
-/*********************/
-.s50-50 {
-	display:inline-block;
-	float:left;
-	width:100%;
-	margin-bottom:40px;
-}
-
-.s50 {
-	display:inline-block;
-	float:left;
-	width:49%;
-}
-
-.s50-right {
-	margin-right:2%;
-}
 
 
-/*********************/
-/***** 70/30 GRID ****/
-/*********************/
 
-.s30-70 {
-	display:inline-block;
-	float:left;
-	width:100%;
-	margin-bottom:40px;
-}
+/*************************************/
+/***** FOOTER *************************/
+/*************************************/
 
-.s70-30 {
-	display:inline-block;
-	float:left;
-	width:100%;
-	margin-bottom:40px;
-}
-
-.s70 {
-	display:inline-block;
-	float:left;
-	width:66.81%;
-}
-
-.s70-right {
-	margin-right:2%;
-}
-
-.s30 {
-	display:inline-block;
-	float:left;
-	width:31.19%;
-}
-
-.s30-right {
-	margin-right:2%;
-}
-
-/*********************/
-/** 25/15/55 GRID ****/
-/*********************/
-
-.s25-15-55 {
-	display:inline-block;
-	float:left;
-	width:100%;
-	margin-bottom:40px;
-}
-
-.s25 {
-	display:inline-block;
-	float:left;
-	width:29.03%;
-}
-
-.s25-right {
-	margin-right:2%;
-}
-
-.s15 {
-	display:inline-block;
-	float:left;
-	width:18.365%;
-}
-
-.s15-right {
-	margin-right:2%;
-}
-
-.s55 {
-	display:inline-block;
-	float:left;
-	width:48.581%;
-}
-
-.s55-right {
-	margin-right:2%;
-}
-
-
-/*********************/
-/** FOOTER ****/
-/*********************/
 
 #footer {
 	width:100%;
@@ -225,78 +390,115 @@ h3 a:hover {text-decoration:underline; color:black; opacity:1;transition: all .1
 }
 
 
+
+
+
+
 /*********************/
 /** MEDIA QUERIES ****/
 /*********************/
 
-@media (max-width: 1600px) {
-h2 {font-size:28px;}
-#main {margin-top:160px; width:95%; margin-left:2.5%;}
-.s100 {margin-bottom:25px;}
-.s50-50 {margin-bottom:25px;}
-.s70-30 {margin-bottom:25px;}
-.s25-15-55 {margin-bottom:25px;}
+@media (max-width: 2020px) {
+#about-paragraph h3 {font-size:26px;}
 }
+
+
+@media (max-width: 1600px) {
+h2 {font-size:18px;}
+h4 {font-size:16px}
+#main {margin-top:160px; width:95%; margin-left:2.5%;}
+#menu-container {margin-top:62px; width:95%; margin-left:2.5%;}
+.dropdown-content {min-width:180px;}
+.dropdown-content a {font-size:16px; margin-top:16px; margin-bottom:16px; margin-left:16px;}
+.std-row {margin-bottom:15px;}
+#logo img {max-heigh:64px;}
+#role {margin-top:12px;}
+#profile-picture {width:28%;margin-top:52px;}
+#about-paragraph {width:47%;margin-left:7%;}
 
 
 @media (max-width:1280px) {
-h2 {font-size:24px;}
+h2 {font-size:16px;}
 ul li {margin-left:30px;}
-#menu-container {margin-top:40px; }
-#main {margin-top:112px; width:95%; margin-left:2.5%;}
-.s100 {margin-bottom:20px;}
-.s50-50 {margin-bottom:20px;}
-.s70-30 {margin-bottom:20px;}
-.s25-15-55 {margin-bottom:20px;}
 p {font-size:12px;}
 h3 {font-size:26px;}
+h4 {font-size:14px;}
+#menu-container {margin-top:53px; width:95%; margin-left:2.5%; }
+#main {margin-top:112px; width:95%; margin-left:2.5%;}
+.std-row {margin-bottom:12px;}
+#logo img {max-height:58px;}
+#role {margin-top:-3px;}
+#insta-logo-menu {max-height:18px;}
+#centered-single-column img {margin-bottom:20px;}
+#about-paragraph h3 {font-size:20px;}
+#about-paragraph {width:54%;}
+#profile-picture {margin-left:6%;margin-top:42px;}
+
 }
 
 @media (max-width:1024px) {
-h2 {font-size:20px;}
+h2 {font-size:16px;}
 ul li {margin-left:30px;}
-.s100 {margin-bottom:14px;}
-.s50-50 {margin-bottom:14px;}
-.s70-30 {margin-bottom:14px;}
-.s25-15-55 {margin-bottom:14px;}
-#about-paragraph {width:100%;}
-h3 {font-size:20px;}
+h3 {font-size:26px;}
 }
 
-@media (max-width: 720px) {
-h2 {font-size:18px;}
+@media (max-width: 900px) {
+h2 {font-size:16px;}
 ul li {margin-left:20px;}
 #menu-container {margin-top:30px;}
 #main {margin-top:90px;}
+#logo img {max-height:50px}
+#logo {margin-top:-20px;}
+#centered-single-column img {margin-bottom:15px;}
+#about-paragraph h3 {font-size:18px;}
 
-.s25-15-55 {margin-bottom:0;}
-.s50-50 {margin-bottom:0;}
-.s100 {margin-bottom:0;}
-.s70-30 {margin-bottom:0;}
-
-.s55 {width:100%; margin-bottom:20px;}
-.s25 {width:100%; margin-bottom:20px;}
-.s15 {width:100%; margin-bottom:20px;}
-.s70 {width:100%; margin-bottom:20px;}
-.s30 {width:100%; margin-bottom:20px;}
-.s50 {width:100%; margin-bottom:20px;}
-.s100 {width:100%; margin-bottom:20px;}
-
-.s70-right {margin-right:0%;}
-.s30-right {margin-right:0%;}
-.s25-right {margin-right:0%;}
-.s15-right {margin-right:0%;}
-.s55-right {margin-right:0%;}
+.std-margin {margin-left:0%}
+#row1-left {width:100%; margin-bottom:12px;}
+#row1-right {width:100%}
+#row2-left {width:100%; margin-bottom:12px;}
+#row2-right {width:100%}
+#row3-left {width:100%; margin-bottom:12px;}
+#row3-right {width:100%}
+#row4-left {width:100%; margin-bottom:12px;}
+#row4-mid {width:100%; margin-bottom:12px;}
+#row4-right {width:100%}
+#row5-left {width:100%; margin-bottom:12px;}
+#row5-mid {width:100%; margin-bottom:12px;}
+#row5-right {width:100%}
+#row6-left {width:100%; margin-bottom:12px;}
+#row6-right {width:100%}
+#row7-left {width:100%; margin-bottom:12px;}
+#row7-mid {width:100%; margin-bottom:12px;}
+#row7-right {width:100%}
+#row8-left {width:100%; margin-bottom:12px;}
+#row8-mid {width:100%; margin-bottom:12px;}
+#row8-right {width:100%}
 }
 
-@media (max-width:600px) {
+@media (max-width:790px) {
 h2 {font-size:16px;}
+h4 {font-size:12px;}
 ul li {margin-left:0; margin-right:10px;}
-#menu-container {margin-top:10px;}
-#logo {width:100%; margin-bottom:8px;}
-#tab {float:left; width:100%;}
+#menu-container {margin-top:37px;}
+#logo {margin-top:-20px;}
+#logo img {max-height:40px;}
+#role {width:124px; margin-left:11px;margin-top:-5px}
+#centered-single-column img {margin-bottom:10px;}
+#about-paragraph {width:93%;margin-left:3.5%;}
+.std-row-about {margin-bottom:0;}
+#profile-picture { margin-left:34%;}
 }
 
+@media (max-width:670px) {
+#menu-container {margin-top:56px;}
+#role {display:none;}
+#tab {margin-top:-6px;}
+#menu {margin-top:-17px;}
+#logo img {max-height:44px;}
+#profile-picture {margin-left:24%}
+#profile-picture img {width:180%;}
+#about-paragraph {width:88%;margin-left:6%;}
+}
 
 
 
