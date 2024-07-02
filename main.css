@@ -190,132 +190,170 @@ h4 {margin:0 0; padding: 0 0; font-weight: 300; font-size: 18px; line-height: 12
     margin-bottom: 20px;
 }
 
-#row1-left {
+.row1-left {
 	display: inline-block;
     float: left;
     width: 55.8%;
 }
 
-#row1-right {
+.row1-right {
 	display: inline-block;
     float: left;
     width: 43.2%;
 }
 
-#row2-left {
+.row1-reverse-left {
+	display: inline-block;
+    float: left;
+    width: 43.2%;
+}
+
+.row1-reverse-right {
+	display: inline-block;
+    float: left;
+    width: 55.8%;
+}
+
+.row2-left {
 	display: inline-block;
     float: left;
     width: 37.6%;
 }
 
-#row2-right {
+.row2-right {
     display: inline-block;
     float: left;
     width: 61.4%;
 
 }
 
-#row3-left {
+.row3-left {
 	display: inline-block;
     float: left;
     width: 43.1%;
 }
 
-#row3-right {
+.row3-right {
     display: inline-block;
     float: left;
     width: 55.9%;
 
 }
 
-#row4-left {
-    display: inline-block;
+.row3-reverse-left {
+	display: inline-block;
     float: left;
-    width: 31.6%;
-
+    width: 55.9%;
 }
 
-#row4-mid {
-    display: inline-block;
-    float: left;
-    width: 46.3%;
-
-}
-
-#row4-right {
-    display: inline-block;
-    float: left;
-    width: 20%;
-}
-
-#row5-left {
+.row3-reverse-right {
     display: inline-block;
     float: left;
     width: 43.1%;
 
 }
 
-#row5-mid {
+.row4-left {
+    display: inline-block;
+    float: left;
+    width: 31.6%;
+
+}
+
+.row4-mid {
+    display: inline-block;
+    float: left;
+    width: 46.3%;
+
+}
+
+.row4-right {
+    display: inline-block;
+    float: left;
+    width: 20%;
+}
+
+.row5-left {
+    display: inline-block;
+    float: left;
+    width: 43.1%;
+
+}
+
+.row5-mid {
     display: inline-block;
     float: left;
     width: 29.3%;
 
 }
 
-#row5-right {
+.row5-right {
     display: inline-block;
     float: left;
     width: 25.6%;
 }
 
-#row6-left {
+.row6-left {
     display: inline-block;
     float: left;
     width: 44.4%;
 
 }
 
-#row6-right {
+.row6-right {
     display: inline-block;
     float: left;
     width: 54.6%;
 }
 
-#row7-left {
+.row6-reverse-left {
+    display: inline-block;
+    float: left;
+    width: 54.6%;
+
+}
+
+.row6-reverse-right {
+    display: inline-block;
+    float: left;
+    width: 44.4%;
+}
+
+.row7-left {
     display: inline-block;
     float: left;
     width: 37.1%;
 
 }
 
-#row7-mid {
+.row7-mid {
     display: inline-block;
     float: left;
     width: 16.6%;
 
 }
 
-#row7-right {
+.row7-right {
     display: inline-block;
     float: left;
     width: 44.3%;
 }
 
-#row8-left {
+.row8-left {
     display: inline-block;
     float: left;
     width: 33.2%;
 
 }
 
-#row8-mid {
+.row8-mid {
     display: inline-block;
     float: left;
     width: 46.5%;
 
 }
 
-#row8-right {
+.row8-right {
     display: inline-block;
     float: left;
     width: 18.3%;
